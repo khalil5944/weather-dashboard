@@ -1,0 +1,14 @@
+# Tell GitHub that TypeScript files are TypeScript
+*.ts linguist-language=TypeScript
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+
+# Mark frontend and backend properly
+frontend/**/*.ts linguist-language=TypeScript
+frontend/**/*.html linguist-language=HTML
+frontend/**/*.css linguist-language=CSS
+backend/**/*.js linguist-language=JavaScript
+
+# Exclude certain files from language stats
+*.json linguist-vendored
+package-lock.json linguist-generated
