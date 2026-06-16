@@ -44,34 +44,33 @@ A weather dashboard built with Angular, Node.js, and PostgreSQL.
 ## 🚀 Installation
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/yourusername/weather-dashboard-pro.git
 cd weather-dashboard-pro
-
+```
 ### 2. Backend Setup
-
+```bash
 cd backend
 npm install
 cp .env.example .env
 # Edit .env with your database and API keys
 npm run dev
-
+```
 ### 3. Frontend Setup
-
+```bash
 cd frontend/weather-app
 npm install
 ng serve --open
-
+```
 ### 4. Database Setup
-
+```bash
 psql -U postgres
 CREATE DATABASE weather_db;
 \c weather_db;
 # Run the SQL schema from backend/schema.sql
-
+```
 ### 📁 Project Structure
-text
+
 weather-dashboard/
 ├── backend/
 │   ├── config/
@@ -95,7 +94,8 @@ weather-dashboard/
         │   └── main.ts
         ├── package.json
         └── angular.json
-🔧 Environment Variables
+### 🔧 Environment Variables
+```bash
 Backend (.env)
 PORT=5000
 DB_USER=postgres
@@ -107,6 +107,7 @@ OPENWEATHER_API_KEY=your_api_key
 
 Frontend (.env)
 API_URL=http://localhost:5000/api
+```
 
 ### 🎯 API Endpoints
 Method	    Endpoint	                Description
