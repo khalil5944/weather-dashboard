@@ -2,7 +2,6 @@
 
 A weather dashboard built with Angular, Node.js, and PostgreSQL.
 
-![Weather Dashboard](https://via.placeholder.com/1200x600/667eea/ffffff?text=Weather+Dashboard+Pro)
 
 ## ✨ Features
 
@@ -70,7 +69,7 @@ CREATE DATABASE weather_db;
 # Run the SQL schema from backend/schema.sql
 ```
 ### 📁 Project Structure
-
+```bash
 weather-dashboard/
 ├── backend/
 │   ├── config/
@@ -94,6 +93,7 @@ weather-dashboard/
         │   └── main.ts
         ├── package.json
         └── angular.json
+```
 ### 🔧 Environment Variables
 ```bash
 Backend (.env)
@@ -110,6 +110,7 @@ API_URL=http://localhost:5000/api
 ```
 
 ### 🎯 API Endpoints
+```bash
 Method	    Endpoint	                Description
 GET	        /api/weather/current/:city	Get current weather
 GET	        /api/weather/forecast/:city	Get 5-day forecast
@@ -117,7 +118,10 @@ GET	        /api/history	            Get search history
 DELETE	    /api/history/:id	        Delete history item
 POST	    /api/auth/register	        User registration
 POST	    /api/auth/login	User        login
+```
 
 ### 👤 Author
+```bash
 Basdouri Med khalil
 GitHub: https://github.com/khalil5944
+```
